@@ -14,8 +14,5 @@ function keyPressed() {
   if (key === 'p') {
     save('dibujo.jpg');
   }
-  function keyPressed() {
-  if (key === 'p') {
-    save('dibujo.jpg');
-  }
-
+ 
+    
