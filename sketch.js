@@ -1,18 +1,20 @@
 var d;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(255,192,203);
+  colorMode(HSB);
 }
 
 function draw() {
   d = random (10,60)
-  colormode(HSB,360,100,100)
-  fill(random (0,360),100,100)
-  ellipse(mouseX, mouseY,d,d)
+  fill(random(0,336),57,96)
+  ellipse(mouseX,mouseY,d,d)
+  
 }
 function keyPressed() {
   if (key === 'p') {
     save('dibujo.jpg');
   }
- }
-    
+
+}
