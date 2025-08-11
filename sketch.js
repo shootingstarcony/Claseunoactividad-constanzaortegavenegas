@@ -10,3 +10,12 @@ function draw() {
   fill(255,100)
   ellipse(mouseX,mouseY,d,d)
 }
+function keyPressed() {
+  if (key === 'p') {
+    save('dibujo.jpg');
+  }
+  function keyPressed() {
+  if (key === 'p') {
+    save('dibujo.jpg');
+  }
+}
